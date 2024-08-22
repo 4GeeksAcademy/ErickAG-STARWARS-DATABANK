@@ -15,10 +15,6 @@ export const Home = () => {
 	useEffect(() => {
 		localStorage.setItem('favourites', JSON.stringify(store.favourites));
 	}, [store.favourites]);
-
-
-
-
 	return (
 		<>
 			<Navbar />
